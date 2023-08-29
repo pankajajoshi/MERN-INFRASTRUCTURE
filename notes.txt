@@ -1,0 +1,20 @@
+//notes
+//we need 2 terminals open
+//1-for react which runs like npm start
+//2-for express which run like nodemon
+//the output showa same react as react in running inside express
+//so we will run sapeartly react and express so tht we dont have to build the app whenever we change
+//the code used to run the production code is -npm run build
+//multi-webpage -page relaoading SPA- the page never actuallu reloads
+//3 developemental concepts for SPA =>1)Ajax 2)clientside routing and 3)client side rendering
+//MERN stack 
+//REact ->MERN stack
+//Angular ->MEAN stack
+//Vue.js -> venom stack/MEVEN stack
+//vistor interacts with frontend has components and routing components
+// and services and a fetch Api this fetch Api interacts with the routes on the back end with just express a node.
+//no jsx templates only static index.html
+//what app holds react app's production ready code ? =>build 
+//whats the responsibility of the "catch all" route defined inthe express app?=>ch, all route is there to catch any route that isn't covered by the Api, and on those routes send back the react app.
+//true or false Api routes will need to be defined in the express app so that the react app can crowd data, etc., on the server.=>true
+//true or false react app should use a service slash Api module to communicate with the back end api routes via Ajax.=>true
